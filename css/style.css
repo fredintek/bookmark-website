@@ -45,7 +45,6 @@ body {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
 .btn {
@@ -108,20 +107,17 @@ body {
 
 /* ===== NAV BAR DESKTOP===== */
 .nav-bar {
-  /* border: 1px solid blue; */
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 8rem;
   transition: all 400ms ease;
-  /* background-color: red; */
   z-index: 400;
   background-color: #fff;
 }
 
 .nav-bar__content {
-  /* border: 2px solid green; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,7 +131,6 @@ body {
 
 .nav-bar__list {
   flex: 1;
-  /* border: 1px solid black; */
   display: flex;
   gap: 5rem;
   justify-content: flex-end;
@@ -157,7 +152,6 @@ body {
 
 /* ============== HERO SECTION ============= */
 .hero-section {
-  /* border: 1px solid green; */
   position: relative;
   top: 8rem;
 }
@@ -167,7 +161,6 @@ body {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding-top: 6rem;
-  /* gap: 1rem; */
 }
 
 .hero-content__title {
@@ -177,7 +170,6 @@ body {
 }
 
 .hero-content__text {
-  /* border: 1px solid red; */
   max-width: 80%;
   margin-top: 2rem;
   color: var(--color-neutral-grey);
@@ -218,7 +210,6 @@ body {
 .features-section {
   position: relative;
   margin-top: 15rem;
-  /* border: 1px solid blue; */
   padding-bottom: 4rem;
 }
 
@@ -240,7 +231,6 @@ body {
 }
 
 .features-section__top {
-  /* border: 1px solid red; */
   text-align: center;
 }
 
@@ -250,7 +240,6 @@ body {
 }
 
 .features-section__text {
-  /* border: 1px solid red; */
   max-width: 48rem;
   margin: 0 auto;
   color: var(--color-neutral-grey);
@@ -263,7 +252,6 @@ body {
 
 .features-headers {
   margin-top: 2rem;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,11 +259,9 @@ body {
 
 .features-header {
   cursor: pointer;
-  /* transition: moouseover 400ms ease; */
 }
 
 .features-header__titles {
-  /* border: 1px solid green; */
   width: 65rem;
   margin: 0 auto;
   display: grid;
@@ -301,7 +287,6 @@ body {
   background-color: var(--color-primary-red);
   border-radius: 10px;
   transition: all 400ms ease;
-  /* transform: translateX(0%); */
 }
 
 .active-feature {
@@ -313,7 +298,6 @@ body {
 }
 
 .features-body__content {
-  /* border: 1px solid green; */
   margin-top: 5rem;
   display: none;
   gap: 5rem;
@@ -339,7 +323,6 @@ body {
 .features-body__text {
   color: var(--color-neutral-grey);
   margin-top: 1rem;
-  /* border: 1px solid red; */
   width: 75%;
 }
 
@@ -349,12 +332,10 @@ body {
 
 /* ========= DOWNLOAD EXTENSIONS SECTION ========= */
 .extension {
-  /* border: 1px solid red; */
   margin-top: 10rem;
 }
 
 .extension-title {
-  /* border: 1px solid red; */
   text-align: center;
   font-size: var(--h2-text);
   font-weight: 500;
@@ -362,7 +343,6 @@ body {
 }
 
 .extension-text {
-  /* border: 1px solid red; */
   max-width: 50rem;
   margin: 1rem auto 0 auto;
   text-align: center;
@@ -370,7 +350,6 @@ body {
 }
 
 .extension-cards {
-  /* border: 1px solid red; */
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -383,7 +362,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-  /* border: 1px solid green; */
   border-radius: 1rem;
   padding: 3rem 1rem 0;
   background-color: #fff;
@@ -419,7 +397,6 @@ body {
   align-items: center;
   padding: 2rem 0;
   width: 100%;
-  /* border: 1px solid red; */
   margin-top: 4rem;
 }
 
@@ -440,7 +417,6 @@ body {
 
 /* ============== FREQUENTLY ASKED SECTION============= */
 .faq-section {
-  /* border: 1px solid red; */
   margin-top: 15rem;
 }
 
@@ -451,7 +427,6 @@ body {
 }
 
 .faq-text {
-  /* border: 1px solid green; */
   max-width: 48rem;
   text-align: center;
   margin: 1rem auto 0 auto;
@@ -459,7 +434,6 @@ body {
 }
 
 .faq-box {
-  /* border: 1px solid black; */
   max-width: 50rem;
   margin: 3rem auto 0 auto;
 }
@@ -476,7 +450,6 @@ body {
 }
 
 .faq-detail-question {
-  /* border: 1px solid red; */
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -507,7 +480,6 @@ body {
 }
 
 .faq-answer {
-  /* border: 1px solid green; */
   width: 100%;
   text-align: left;
   color: var(--color-neutral-grey);
@@ -730,7 +702,6 @@ input[type="email"]:invalid {
   }
 
   .features-header {
-    /* border: 1px solid red; */
     padding: 2rem 0;
     border-top: 1px solid var(--color-neutral-grey);
     position: relative;
@@ -759,7 +730,6 @@ input[type="email"]:invalid {
 
   .features-header__titles {
     grid-template-columns: 1fr;
-    /* border: 1px solid green; */
     width: 90vw;
   }
 
@@ -777,12 +747,10 @@ input[type="email"]:invalid {
 
   .features-body__right {
     margin-top: 6rem;
-    /* border: 1px solid red; */
     text-align: center;
   }
 
   .features-body__text {
-    /* border: 1px solid red; */
     margin: 1rem auto 0 auto;
   }
 
@@ -862,7 +830,6 @@ input[type="email"]:invalid {
   }
 
   .nav-mobile ul {
-    /* border: 1px solid red; */
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -941,7 +908,6 @@ input[type="email"]:invalid {
   }
 
   .hero-content__buttons {
-    /* border: 1px solid red; */
     justify-content: center;
   }
 
@@ -1053,7 +1019,6 @@ input[type="email"]:invalid {
 
   /* ======== DOWNLOAD EXTENSION SECTION ========*/
   .card-dots {
-    /* border: 1px solid red; */
     width: 80vw;
   }
 
