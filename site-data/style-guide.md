@@ -21,22 +21,22 @@ The designs were created to the following widths:
 
 ## Typography
 
-### Desktop
+## Desktop `Custom font stylings`
 
-paragraph -- 16px
-h1 -- 32px
-h2 -- 24px
-h3 -- 18px
+- paragraph -- 16px
+- h1 -- 32px
+- h2 -- 24px
+- h3 -- 18px
 
-small-text -- 12px
+- small-text -- 12px
 
-### Mobile
+## Mobile `Custom font stylings`
 
-paragraph -- 14px
-h1 -- 30px
-h2 -- 22px
-h3 -- 18px
-small-text -- 10px
+- paragraph -- 14px
+- h1 -- 30px
+- h2 -- 22px
+- h3 -- 18px
+- small-text -- 10px
 
 ### Body Copy
 
