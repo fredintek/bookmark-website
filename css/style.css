@@ -642,7 +642,7 @@ input[type="email"]:invalid {
   align-items: center;
 }
 
-/* =============== MEDIA QUERIES ================== */
+/* ============ MEDIA QUERIES =============== */
 
 /* AT MIN WIDTH 1400PX */
 @media (min-width: 87.5em) {
